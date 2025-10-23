@@ -1,0 +1,46 @@
+/* Center the form on the page */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Style the form container */
+#user-form {
+  padding: 20px 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Added spacing between labels and inputs */
+label {
+  display: block;
+  margin-bottom: 12px;
+}
+
+/* Style input fields and textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+
+/* Added spacing above the preview section */
+h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+p {
+  margin: 6px 0;
+  text-align: center;
+}
